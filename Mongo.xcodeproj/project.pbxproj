@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96AEEC5E1DEEC719001D62C4 /* NSObject+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AEEC5D1DEEC719001D62C4 /* NSObject+Network.m */; };
+		DE7100211DB5BADC007246BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100201DB5BADC007246BB /* main.m */; };
+		DE7100241DB5BADC007246BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100231DB5BADC007246BB /* AppDelegate.m */; };
+		DE7100271DB5BADC007246BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100261DB5BADC007246BB /* ViewController.m */; };
+		DE71002A1DB5BADC007246BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7100281DB5BADC007246BB /* Main.storyboard */; };
+		DE71002C1DB5BADC007246BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE71002B1DB5BADC007246BB /* Assets.xcassets */; };
+		DE71002F1DB5BADC007246BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE71002D1DB5BADC007246BB /* LaunchScreen.storyboard */; };
+		DE7100391DB5BE51007246BB /* MGTaskPool.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100381DB5BE51007246BB /* MGTaskPool.m */; };
+		DE71003E1DB5C44A007246BB /* MGServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DE71003D1DB5C44A007246BB /* MGServiceResponse.m */; };
+		DE7100411DB5C4EC007246BB /* MGNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100401DB5C4EC007246BB /* MGNetworkService.m */; };
+		DE7100441DB5C52E007246BB /* MGNetwokResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100431DB5C52E007246BB /* MGNetwokResponse.m */; };
+		DE7100471DB5C6E3007246BB /* MGNetworkServiceMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100461DB5C6E3007246BB /* MGNetworkServiceMediator.m */; };
+		DE71004A1DB5C8E7007246BB /* MGNetworkAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100491DB5C8E7007246BB /* MGNetworkAccess.m */; };
+		DE71004D1DB5C938007246BB /* MGProtocolHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE71004C1DB5C938007246BB /* MGProtocolHandler.m */; };
+		DE7100501DB5C9BF007246BB /* MGMockAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = DE71004F1DB5C9BF007246BB /* MGMockAccess.m */; };
+		DE7100521DB5CA11007246BB /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = DE7100511DB5CA11007246BB /* default.json */; };
+		DE7100551DB5CA78007246BB /* MGJsonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7100541DB5CA78007246BB /* MGJsonHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96AEEC5C1DEEC719001D62C4 /* NSObject+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Network.h"; sourceTree = "<group>"; };
+		96AEEC5D1DEEC719001D62C4 /* NSObject+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Network.m"; sourceTree = "<group>"; };
+		DE71001C1DB5BADC007246BB /* Mongo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mongo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7100201DB5BADC007246BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE7100221DB5BADC007246BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE7100231DB5BADC007246BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE7100251DB5BADC007246BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE7100261DB5BADC007246BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE7100291DB5BADC007246BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE71002B1DB5BADC007246BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE71002E1DB5BADC007246BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE7100301DB5BADC007246BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7100371DB5BE51007246BB /* MGTaskPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTaskPool.h; sourceTree = "<group>"; };
+		DE7100381DB5BE51007246BB /* MGTaskPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTaskPool.m; sourceTree = "<group>"; };
+		DE71003A1DB5C195007246BB /* Mongo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mongo.h; sourceTree = "<group>"; };
+		DE71003B1DB5C405007246BB /* MGService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGService.h; sourceTree = "<group>"; };
+		DE71003C1DB5C44A007246BB /* MGServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGServiceResponse.h; sourceTree = "<group>"; };
+		DE71003D1DB5C44A007246BB /* MGServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGServiceResponse.m; sourceTree = "<group>"; };
+		DE71003F1DB5C4EC007246BB /* MGNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNetworkService.h; sourceTree = "<group>"; };
+		DE7100401DB5C4EC007246BB /* MGNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNetworkService.m; sourceTree = "<group>"; };
+		DE7100421DB5C52E007246BB /* MGNetwokResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNetwokResponse.h; sourceTree = "<group>"; };
+		DE7100431DB5C52E007246BB /* MGNetwokResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNetwokResponse.m; sourceTree = "<group>"; };
+		DE7100451DB5C6E3007246BB /* MGNetworkServiceMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNetworkServiceMediator.h; sourceTree = "<group>"; };
+		DE7100461DB5C6E3007246BB /* MGNetworkServiceMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNetworkServiceMediator.m; sourceTree = "<group>"; };
+		DE7100481DB5C8E7007246BB /* MGNetworkAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNetworkAccess.h; sourceTree = "<group>"; };
+		DE7100491DB5C8E7007246BB /* MGNetworkAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNetworkAccess.m; sourceTree = "<group>"; };
+		DE71004B1DB5C938007246BB /* MGProtocolHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGProtocolHandler.h; sourceTree = "<group>"; };
+		DE71004C1DB5C938007246BB /* MGProtocolHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGProtocolHandler.m; sourceTree = "<group>"; };
+		DE71004E1DB5C9BF007246BB /* MGMockAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMockAccess.h; sourceTree = "<group>"; };
+		DE71004F1DB5C9BF007246BB /* MGMockAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMockAccess.m; sourceTree = "<group>"; };
+		DE7100511DB5CA11007246BB /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
+		DE7100531DB5CA78007246BB /* MGJsonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJsonHandler.h; sourceTree = "<group>"; };
+		DE7100541DB5CA78007246BB /* MGJsonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJsonHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE7100191DB5BADC007246BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE7100131DB5BADC007246BB = {
+			isa = PBXGroup;
+			children = (
+				DE71001E1DB5BADC007246BB /* Mongo */,
+				DE71001D1DB5BADC007246BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE71001D1DB5BADC007246BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE71001C1DB5BADC007246BB /* Mongo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE71001E1DB5BADC007246BB /* Mongo */ = {
+			isa = PBXGroup;
+			children = (
+				DE7100361DB5BE26007246BB /* Core */,
+				DE7100221DB5BADC007246BB /* AppDelegate.h */,
+				DE7100231DB5BADC007246BB /* AppDelegate.m */,
+				DE7100251DB5BADC007246BB /* ViewController.h */,
+				DE7100261DB5BADC007246BB /* ViewController.m */,
+				DE7100281DB5BADC007246BB /* Main.storyboard */,
+				DE71002B1DB5BADC007246BB /* Assets.xcassets */,
+				DE71002D1DB5BADC007246BB /* LaunchScreen.storyboard */,
+				DE7100301DB5BADC007246BB /* Info.plist */,
+				DE71001F1DB5BADC007246BB /* Supporting Files */,
+				DE71003A1DB5C195007246BB /* Mongo.h */,
+			);
+			path = Mongo;
+			sourceTree = "<group>";
+		};
+		DE71001F1DB5BADC007246BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE7100201DB5BADC007246BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE7100361DB5BE26007246BB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DE7100511DB5CA11007246BB /* default.json */,
+				DE7100531DB5CA78007246BB /* MGJsonHandler.h */,
+				DE7100541DB5CA78007246BB /* MGJsonHandler.m */,
+				DE71004E1DB5C9BF007246BB /* MGMockAccess.h */,
+				DE71004F1DB5C9BF007246BB /* MGMockAccess.m */,
+				DE71004B1DB5C938007246BB /* MGProtocolHandler.h */,
+				DE71004C1DB5C938007246BB /* MGProtocolHandler.m */,
+				DE7100481DB5C8E7007246BB /* MGNetworkAccess.h */,
+				DE7100491DB5C8E7007246BB /* MGNetworkAccess.m */,
+				DE7100421DB5C52E007246BB /* MGNetwokResponse.h */,
+				DE7100431DB5C52E007246BB /* MGNetwokResponse.m */,
+				DE71003F1DB5C4EC007246BB /* MGNetworkService.h */,
+				DE7100401DB5C4EC007246BB /* MGNetworkService.m */,
+				DE71003C1DB5C44A007246BB /* MGServiceResponse.h */,
+				DE71003D1DB5C44A007246BB /* MGServiceResponse.m */,
+				DE71003B1DB5C405007246BB /* MGService.h */,
+				DE7100371DB5BE51007246BB /* MGTaskPool.h */,
+				DE7100381DB5BE51007246BB /* MGTaskPool.m */,
+				DE7100451DB5C6E3007246BB /* MGNetworkServiceMediator.h */,
+				DE7100461DB5C6E3007246BB /* MGNetworkServiceMediator.m */,
+				96AEEC5C1DEEC719001D62C4 /* NSObject+Network.h */,
+				96AEEC5D1DEEC719001D62C4 /* NSObject+Network.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE71001B1DB5BADC007246BB /* Mongo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7100331DB5BADC007246BB /* Build configuration list for PBXNativeTarget "Mongo" */;
+			buildPhases = (
+				DE7100181DB5BADC007246BB /* Sources */,
+				DE7100191DB5BADC007246BB /* Frameworks */,
+				DE71001A1DB5BADC007246BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mongo;
+			productName = Mongo;
+			productReference = DE71001C1DB5BADC007246BB /* Mongo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE7100141DB5BADC007246BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = kyson;
+				TargetAttributes = {
+					DE71001B1DB5BADC007246BB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE7100171DB5BADC007246BB /* Build configuration list for PBXProject "Mongo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE7100131DB5BADC007246BB;
+			productRefGroup = DE71001D1DB5BADC007246BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE71001B1DB5BADC007246BB /* Mongo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE71001A1DB5BADC007246BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7100521DB5CA11007246BB /* default.json in Resources */,
+				DE71002F1DB5BADC007246BB /* LaunchScreen.storyboard in Resources */,
+				DE71002C1DB5BADC007246BB /* Assets.xcassets in Resources */,
+				DE71002A1DB5BADC007246BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE7100181DB5BADC007246BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7100441DB5C52E007246BB /* MGNetwokResponse.m in Sources */,
+				DE7100471DB5C6E3007246BB /* MGNetworkServiceMediator.m in Sources */,
+				DE7100391DB5BE51007246BB /* MGTaskPool.m in Sources */,
+				DE7100411DB5C4EC007246BB /* MGNetworkService.m in Sources */,
+				96AEEC5E1DEEC719001D62C4 /* NSObject+Network.m in Sources */,
+				DE7100271DB5BADC007246BB /* ViewController.m in Sources */,
+				DE7100241DB5BADC007246BB /* AppDelegate.m in Sources */,
+				DE71003E1DB5C44A007246BB /* MGServiceResponse.m in Sources */,
+				DE71004D1DB5C938007246BB /* MGProtocolHandler.m in Sources */,
+				DE7100211DB5BADC007246BB /* main.m in Sources */,
+				DE7100551DB5CA78007246BB /* MGJsonHandler.m in Sources */,
+				DE7100501DB5C9BF007246BB /* MGMockAccess.m in Sources */,
+				DE71004A1DB5C8E7007246BB /* MGNetworkAccess.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE7100281DB5BADC007246BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7100291DB5BADC007246BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE71002D1DB5BADC007246BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE71002E1DB5BADC007246BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE7100311DB5BADC007246BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE7100321DB5BADC007246BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE7100341DB5BADC007246BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mongo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medishare.Mongo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE7100351DB5BADC007246BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mongo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medishare.Mongo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE7100171DB5BADC007246BB /* Build configuration list for PBXProject "Mongo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7100311DB5BADC007246BB /* Debug */,
+				DE7100321DB5BADC007246BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7100331DB5BADC007246BB /* Build configuration list for PBXNativeTarget "Mongo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7100341DB5BADC007246BB /* Debug */,
+				DE7100351DB5BADC007246BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE7100141DB5BADC007246BB /* Project object */;
+}
